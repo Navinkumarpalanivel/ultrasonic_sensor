@@ -9,7 +9,14 @@ for(data=1;data<=num;data++)
    {
   count++;
   }
-
-
+}
+if(count==2)
+{
+printf("The given number is prime number");
+}
+else
+{
+printf("The given number isn't prime");
+}
 return(0);
 }
