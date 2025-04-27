@@ -1,7 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int num=5;
-printf("%d",num);
+int num,data,count=0;
+scanf("%d",&num);
+for(data=1;data<=num;data++)
+{
+ if(num%data==0)
+   {
+  count++;
+  }
+
+
 return(0);
 }
